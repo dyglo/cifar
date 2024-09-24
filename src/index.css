@@ -1,0 +1,86 @@
+ /* The existing code is correct; no changes are required. */
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+input[type="file"] {
+  display: block;
+  margin-top: 20px;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.hover\:shadow-xl:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.transition-shadow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.dark .bg-gray-900 {
+  background-color: #1a202c;
+}
+
+.dark .text-white {
+  color: #fff;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
