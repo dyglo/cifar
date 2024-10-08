@@ -31,6 +31,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
-          # Add any necessary inputs for the deploy-pages action
-          # For example, if you need to specify the build output directory:
           publish_dir: ./build # Adjust this path based on your build output directory
